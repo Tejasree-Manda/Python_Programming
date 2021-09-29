@@ -1,0 +1,10 @@
+a=[1,1,3,4,6,7,8,8,9,10]
+b=[1,1,3,6,8,5]
+new=a+b
+print(new)
+print(set(new))
+a1=set(a)
+b1=set(b)
+n=a1-b1
+print(n)
+print(b1-a1)
